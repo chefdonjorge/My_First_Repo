@@ -1,0 +1,35 @@
+#nav {display: block;
+width: 100%;
+background-color: lightgray;}
+
+.navbutton {display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: slategray;
+    padding: 30px;
+    height: 10px;
+    width: 200px;   
+}
+#sidebar {width: 29%;
+    background-color: grey;
+    float: left;
+    height: 5000px;
+}
+#mainContent {width: 70%;
+    background-color: aquamarine;
+    float: left;
+    height: 5000px;
+}
+.profile {color: black;
+    background-color:grey;
+    height: 200px;
+    border: 3px;
+    border-color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+.list {color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+li {margin-bottom: 20px;}
