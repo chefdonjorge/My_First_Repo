@@ -10,26 +10,47 @@ background-color: lightgray;}
     height: 10px;
     width: 200px;   
 }
-#sidebar {width: 29%;
+#sidebar {width: 18%;
     background-color: grey;
     float: left;
     height: 5000px;
+    border: 2px solid black;
 }
-#mainContent {width: 70%;
+#mainContent {width: 81%;
     background-color: aquamarine;
     float: left;
     height: 5000px;
 }
 .profile {color: black;
-    background-color:grey;
     height: 200px;
-    border: 3px;
-    border-color: black;
+    border-bottom: 2px solid black;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 90px;
 }
-.list {color: black;
+.list { position: absolute;
+    color: black;
     margin-left: 20px;
     margin-top: 50px;
+    padding-top: 30px;
 }
 li {margin-bottom: 20px;}
+
+h2 {font: 32px bold;
+}
+
+.statHead {font: 20px bold;
+text-decoration: underline;
+text-align: center;}
+
+.hero {display: block;
+    margin: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.herotitle {display: inline-block; margin: 50px 0px 75px 20px;}
+
+#puppy1 {margin: 20px;}
+
+.bodyText {font-size: 20px;}
