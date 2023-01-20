@@ -49,8 +49,16 @@ text-align: center;}
     border: 1px solid black;
 }
 
-.herotitle {display: inline-block; margin: 50px 0px 75px 20px;}
+.herotitle {display: inline-block; margin: 50px 0px 75px 20px; font-family:Verdana, Geneva, Tahoma, sans-serif;}
 
 #puppy1 {margin: 20px;}
 
 .bodyText {font-size: 20px;}
+
+#galleryTitle {align-content: center;}
+
+.galleryPups {display: inline-flex;
+height: 500px;
+width: 500px;
+margin: 50px;
+align-content: center;}
